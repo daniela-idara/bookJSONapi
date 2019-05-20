@@ -1,0 +1,58 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+}
+
+.image {
+    opacity: 1;
+    display: inline-block;
+    backface-visibility: hidden;
+    border: solid black 2px;
+  }
+
+  span {
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    height: 100px;
+  }
+  
+.eachUser {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: dodgerblue;
+}  
+.eachUser:hover .image {
+    opacity: 0.3;
+  }
+  
+  .eachUser:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding: 16px 0px;
+  }
